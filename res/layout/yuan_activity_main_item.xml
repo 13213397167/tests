@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <FrameLayout
+        android:id="@+id/yuan_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my_home_page_layout1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/yuan_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/yuan_layout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/yuan_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <RadioButton
+                    android:id="@+id/yuan_radio1"
+                    android:layout_weight="1"
+                    android:background="@drawable/selec"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center_vertical"
+                    android:text="   首页"
+                    android:textColor="#888" />
+
+                <RadioButton
+                    android:id="@+id/yuan_radio2"
+                    android:layout_weight="1"
+                    android:background="@drawable/selec"
+                    android:button="@null"
+                    android:text="   分类"
+                    android:textColor="#888" />
+
+                <RadioButton
+                    android:id="@+id/yuan_radio3"
+                    android:layout_weight="1"
+                    android:background="@drawable/selec"
+                    android:button="@null"
+                    android:text="   购物车"
+                    android:textColor="#888" />
+
+                <RadioButton
+                    android:id="@+id/yuan_radio4"
+                    android:layout_weight="1"
+                    android:background="@drawable/selec"
+                    android:button="@null"
+                    android:text="   注册"
+                    android:textColor="#888" />
+
+                <RadioButton
+                    android:id="@+id/yuan_radio5"
+                    android:layout_weight="1"
+                    android:background="@drawable/selec"
+                    android:button="@null"
+                    android:text="   我的账户"
+                    android:textColor="#888" />
+            </RadioGroup>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

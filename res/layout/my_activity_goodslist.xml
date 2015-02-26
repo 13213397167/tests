@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <include
+        android:id="@+id/my_goodlist_header"
+        layout="@layout/my_finish" />
+
+    <RelativeLayout
+        android:id="@+id/my_goodslist_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_goodlist_header"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <net.yasite.view.XListView
+            android:id="@+id/my_goodlist_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </net.yasite.view.XListView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <ImageView
+        android:id="@+id/my_homepage_banner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/u11" />
+
+    <LinearLayout
+        android:id="@+id/my_homepage_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_homepage_banner"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/my_homepage_b_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fcc"
+            android:padding="5dp"
+            android:text="商品"
+            android:textColor="#f00" />
+
+        <EditText
+            android:id="@+id/my_homepage_e_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8" />
+
+        <Button
+            android:id="@+id/my_homepage_b_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:padding="5dp"
+            android:text="搜索" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_homepage_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_homepage_layout1"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/my_homepage_text_text1"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="商品" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/my_homepage_text_text1"
+            android:layout_toRightOf="@id/my_homepage_text_text1"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="进口食品" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/my_homepage_text_text2"
+            android:layout_toRightOf="@id/my_homepage_text_text1"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="地方特产" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/my_homepage_text_text2"
+            android:layout_toRightOf="@id/my_homepage_text_text2"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="有机食品" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/my_homepage_text_text4"
+            android:layout_toRightOf="@id/my_homepage_text_text3"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="零食" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_homepage_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_homepage_layout2"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/my_homepage_text_text6"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="厨房用品" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text7"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@id/my_homepage_text_text6"
+            android:layout_toRightOf="@id/my_homepage_text_text6"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="厨房卫浴" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text8"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/my_homepage_text_text7"
+            android:layout_toRightOf="@id/my_homepage_text_text6"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="地方特产" />
+
+        <TextView
+            android:id="@+id/my_homepage_text_text9"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/my_homepage_text_text7"
+            android:layout_toRightOf="@id/my_homepage_text_text8"
+            android:background="@drawable/shape"
+            android:gravity="center"
+            android:text="零食" />
+    </RelativeLayout>
+
+</RelativeLayout>
